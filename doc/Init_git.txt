@@ -55,9 +55,15 @@ pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
 $ git config --global user.email "pauline.chauveau@outlook.fr"
 
 pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git add doc/Init_git.txt
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
 $ git commit -m "command to init git"
 [main 7b5cd58] command to init git
  1 file changed, 52 insertions(+)
  create mode 100644 doc/Init_git.txt
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git push origin main
 
 
