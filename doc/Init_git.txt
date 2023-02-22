@@ -1,0 +1,69 @@
+
+pauline@Pauline MINGW64 ~
+$ cd "C:\Users\pauline\Desktop\Data Challenge\GitHub"
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub
+$ git init
+Initialized empty Git repository in C:/Users/pauline/Desktop/Data Challenge/GitHub/.git/
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git remote add origin https://github.com/gralexrob1/IndexReturnPredictionUsingCenralBanksSpeeches-Py.git
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git remote
+origin
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git remote -v
+origin  https://github.com/gralexrob1/IndexReturnPredictionUsingCentralBanksSpeeche-Py.git (fetch)
+origin  https://github.com/gralexrob1/IndexReturnPredictionUsingCentralBanksSpeeche-Py.git (push)
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git fetch origin main
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Compressing objects: 100% (31/31), done.
+remote: Total 33 (delta 7), reused 21 (delta 1), pack-reused 0
+Unpacking objects: 100% (33/33), 22.28 MiB | 4.25 MiB/s, done.
+From https://github.com/gralexrob1/IndexReturnPredictionUsingCentralBanksSpeeches-P
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git pull origin main
+From https://github.com/gralexrob1/IndexReturnPredictionUsingCentralBanksSpeeches-Py
+ * branch            main       -> FETCH_HEAD
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git branch main
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (master)
+$ git checkout main
+Switched to branch 'main'
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git branch
+* main
+  master
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git config --global user.email "pauline.chauveau@outlook.fr"
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git add doc/Init_git.txt
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git commit -m "command to init git"
+[main 7b5cd58] command to init git
+ 1 file changed, 52 insertions(+)
+ create mode 100644 doc/Init_git.txt
+
+pauline@Pauline MINGW64 ~/Desktop/Data Challenge/GitHub (main)
+$ git push origin main
+
+
